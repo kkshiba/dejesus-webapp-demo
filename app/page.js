@@ -1,27 +1,27 @@
+export const metadata = {
+  title: "Tailwind CSS Tutorial",
+};
+
 export default function Home() {
   return (
-    <>
-      <head>
-        <title>Tailwind CSS Tutorial</title>
-      </head>
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800">
-        {/* Navigation */}
-        <nav className="bg-gray-900 bg-opacity-80 backdrop-blur-sm border-b border-gray-800 sticky top-0 z-50">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-16">
-              <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg"></div>
-                <h1 className="text-xl font-bold text-white">Tailwind CSS</h1>
-              </div>
-              <div className="hidden md:flex space-x-6">
-                <a href="#intro" className="text-gray-300 hover:text-cyan-400 transition font-medium">Intro</a>
-                <a href="#setup" className="text-gray-300 hover:text-cyan-400 transition font-medium">Setup</a>
-                <a href="#utilities" className="text-gray-300 hover:text-cyan-400 transition font-medium">Utilities</a>
-                <a href="#examples" className="text-gray-300 hover:text-cyan-400 transition font-medium">Examples</a>
-              </div>
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800">
+      {/* Navigation */}
+      <nav className="bg-gray-900 bg-opacity-80 backdrop-blur-sm border-b border-gray-800 sticky top-0 z-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
+            <div className="flex items-center space-x-2">
+              <div className="w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg"></div>
+              <h1 className="text-xl font-bold text-white">Tailwind CSS</h1>
+            </div>
+            <div className="hidden md:flex space-x-6">
+              <a href="#intro" className="text-gray-300 hover:text-cyan-400 transition font-medium">Intro</a>
+              <a href="#setup" className="text-gray-300 hover:text-cyan-400 transition font-medium">Setup</a>
+              <a href="#utilities" className="text-gray-300 hover:text-cyan-400 transition font-medium">Utilities</a>
+              <a href="#examples" className="text-gray-300 hover:text-cyan-400 transition font-medium">Examples</a>
             </div>
           </div>
-        </nav>
+        </div>
+      </nav>
 
       {/* Hero Section */}
       <div className="max-w-5xl mx-auto px-4 py-20 sm:px-6 lg:px-8">
@@ -278,6 +278,5 @@ export default function Home() {
         </div>
       </footer>
     </div>
-    </>
   );
 }
